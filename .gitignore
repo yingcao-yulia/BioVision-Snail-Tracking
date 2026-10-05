@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+runs/
+data/
+*.mp4
+*.avi
+*.pt
+*.csv
+runs/
+weights/
+*.pt
