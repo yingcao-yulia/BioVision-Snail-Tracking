@@ -61,17 +61,23 @@ The processed trajectories, physical mucus buffer zone ($r=20\text{ px}$), and s
 
 ### 1. Installation
 ```bash
-git clone [https://github.com/YourUsername/BioVision-Snail-Tracking.git](https://github.com/YourUsername/BioVision-Snail-Tracking.git)
+git clone [https://github.com/yingcao-yulia/BioVision-Snail-Tracking.git](https://github.com/yingcao-yulia/BioVision-Snail-Tracking.git)
 cd BioVision-Snail-Tracking
 pip install -r requirements.txt
+```
+--
+
 ### 2. Execution Pipeline
 
 **Step 1: Detection & Trajectory Interpolation**
 ```bash
 python src/01_detect_and_interpolate.py
-**Step 2: Generate Scaled Trajectory Plots
+```
+**Step 2: Generate Scaled Trajectory Plots**
 ```bash
 python src/02_plot_trajectories.py
-**Step 3: Calculate Spatial Overlap & Master CSV Summary
+```
+**Step 3: Calculate Spatial Overlap & Master CSV Summary**
 ```bash
 python src/03_calculate_overlap.py
+```
