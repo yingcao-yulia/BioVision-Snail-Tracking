@@ -8,6 +8,11 @@ An automated computer vision and computational behavioral analytics pipeline des
 
 ---
 
+## 👥 Credits
+**Project Contributors:** Anuarova Altynay, Assirov Yernar, Cao Ying
+
+---
+
 ##  Input Video Streams & Real-time Tracking
 
 The pipeline processes dual-subject behavioral videos to dynamically locate targets and extract continuous 2D trajectories:
